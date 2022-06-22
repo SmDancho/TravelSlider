@@ -1,0 +1,77 @@
+.container {
+    width: 1440px;
+    margin: auto;
+}
+
+.title {
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 53px;
+    color: #F2785C; 
+    text-align: center;
+}
+
+.slider {
+    overflow: hidden;
+}
+.slider__inner {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    position: relative;
+}
+
+
+.slider__card {
+    width: 33%;
+    cursor: pointer;
+}
+
+.slider__item {
+    min-width: 800px;
+    height: 800px;
+}
+.slider__pignitation {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 30px;
+    margin-top: 25px;
+}
+
+.span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius:100%;
+    background: rgba(242, 120, 92, 0.5);
+    
+}
+
+.span_active {
+    background: #F2785C;
+}
+
+
+@keyframes moveRight {
+    from {left: 0px;}
+    to {left:  -850px;}
+  }
+  
+  .transition-right {
+    animation-name: moveRight;
+    animation-duration: .3s;
+  }
+  
+  @keyframes moveLeft {
+    from {left: -0px;}
+    to {left: 850px;}
+  }
+  
+  .transition-left {
+    animation-name: moveLeft;
+    animation-duration: .3s;
+  }
+  
