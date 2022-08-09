@@ -1,1 +1,1 @@
-# GhPage - https://smdancho.github.io/TravelSlider/travelSlider/
+# [ghpage](https://smdancho.github.io/TravelSlider/travelSlider/)
